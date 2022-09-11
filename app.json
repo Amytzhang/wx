@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/menue/menue",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black",
+    "pageOrientation": "auto"
+  },
+  "tabBar": {
+    "selectedColor": "#f3a75b",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "资源"
+    },{
+      "pagePath": "pages/menue/menue",
+      "text": "服务"
+    }]
+  },
+  "resizable": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

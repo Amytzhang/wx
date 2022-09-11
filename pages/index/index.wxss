@@ -1,0 +1,27 @@
+/**index.wxss**/
+.index_router {
+  height: 3pc;
+  line-height: 3pc;
+  display: flex;
+  justify-content: space-between;
+}
+.index_router_item {
+  flex: 1;
+  text-align: center;
+  background-color: yellow;
+}
+.navigator-hover-class {
+  color: rgba(252, 118, 0, 0.942);
+}
+.show-box{
+  height: 400px;
+  width: 400px;
+  background-color:rebeccapurple;
+}
+.index_button {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

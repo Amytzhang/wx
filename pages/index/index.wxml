@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="index_router">
+  <navigator open-type="switchTab" url="/pages/menue/menue" hover-class="navigator-hover-class" class="index_router_item">服务</navigator>
+  <navigator url="/pages/test/test?name=123"  class="index_router_item">test</navigator>
+</view>
+<swiper indicator-dots="true" autoplay="true" interval="2000">
+    <swiper-item>
+      <image src="http://localhost:3000/static/img/user.jpg" style="width:100%;height:300rpx;"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://localhost:3000/static/img/3.jpg" style="width:100%;height:300rpx;" ></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://localhost:3000/static/img/4.jpg" style="width:100%;height:300rpx;" ></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://localhost:3000/static/img/5.jpg" style="width:100%;height:300rpx;" ></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://localhost:3000/static/img/6.jpg" style="width:100%;height:300rpx;" ></image>
+    </swiper-item>
+  </swiper>
+  <block wx:if="{{showBox}}">
+    <view class="show-box"></view>
+  </block>
+<view class="index_button">
+  <button size="mini" type="primary" >确定</button>
+  <button size="mini" plain="true">取消</button>
+</view>
+

@@ -1,0 +1,18 @@
+<!--logs.wxml-->
+<view class="logscontainer">
+<!-- 图标 -->
+  <icon type="success" color="red" size="14"></icon>
+</view>
+<!-- 进度条 -->
+<progress percent="{{vprogress}}" show-info="true" border-radius="2" active="true" stroke-width="4" duration="40"></progress>
+
+<!-- for -->
+<view class="demo_split">for循环绑定数据</view>
+<view wx:for="{{v_array}}" wx:key="index">
+  {{index}}--{{item.id}}---{{item.name}}
+</view>
+<view class="demo_split">for循环绑定数据第二种方法</view>
+<view wx:for="{{v_array}}" wx:for-index="index" wx:for-item="itemName" wx:key="index">
+  {{index}}: {{itemName.name}}
+</view>
+<view class="demo_split">实验</view>
